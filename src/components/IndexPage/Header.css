@@ -99,9 +99,6 @@
     font-size: 15px;
 }
 
-/* .userName {
-    margin-right: 100px;
-} */
 
 .user-img {
     width: 32.34px;
@@ -121,6 +118,7 @@
         height: 60px;
         display: flex;
         margin: 0 auto;
+        overflow: hidden;
     }
     .headerEl,.logo {
         display: none;
@@ -145,7 +143,7 @@
     }
     .header-download {
         position: absolute;
-        left: 90%;
+        left: 86%;
     }
 
     .icon-download{
@@ -169,7 +167,7 @@
         font-weight: 700;
     }
 }
-
+/* 
 @media only screen and (max-width:380px) {
     .header-download {
         position: absolute;
@@ -180,4 +178,4 @@
         left: 60%;
     }
 }
-
+ */
