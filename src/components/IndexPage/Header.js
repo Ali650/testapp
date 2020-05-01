@@ -1,5 +1,6 @@
 import React from 'react'
 import refresh from './img/refresh.svg'
+import {NavLink} from 'react-router-dom'
 import mic from './img/mic.svg'
 import download from './img/download.svg'
 import headphones from './img/headphones.svg'
@@ -9,7 +10,7 @@ import './Header.css'
 const header = ()=> {
     return(
         <header className="header">
-            <p className="logo">jifcast</p>
+            <NavLink to="/jifcast" tag="p" className="logo">jifcast</NavLink>
             <div className="headerEl header-refresh">
                 <img src={refresh} alt="" className="header-icon icon-refresh"/>
                 <p className="icon-text text-refresh">refresh</p>

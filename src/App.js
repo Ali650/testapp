@@ -1,13 +1,17 @@
 import React from 'react';
+import { Route,Switch } from 'react-router-dom'
 import './App.css';
-import Header from './components/IndexPage/Header'
-import Container from './components/IndexPage/Container'
+import IndexPage from './components/IndexPage/IndexPage'
+import InnerPage from './components/InnerPage/InnerPage'
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Container />
+      <Switch>
+        <Route path="/jifcast" component={InnerPage} />
+        <Route path="/" component={IndexPage} />
+      </Switch>
+
     </div>
   );
 }
