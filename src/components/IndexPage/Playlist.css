@@ -1,9 +1,8 @@
 .playlist {
     display: flex;
     max-width: 589px;
-    height: 100px;
-    border-bottom: 1px solid #E9F7F4 ;
-    padding-bottom: 120px;
+    border-bottom: 1px solid #E9F7F4;
+    padding-bottom: 20px;
     margin-top: 25px;
     position: relative;
 }
