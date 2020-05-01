@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route path="/" component={IndexPage} />
+        <Route path="/Index" component={IndexPage} />
         <Route path="/jifcast" component={InnerPage} />
       </Switch>
 
