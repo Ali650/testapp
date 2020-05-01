@@ -10,7 +10,7 @@ import './Header.css'
 const header = ()=> {
     return(
         <header className="header">
-            <NavLink to="/jifcast" tag="p" className="logo">jifcast</NavLink>
+            <NavLink to="/jifcast" title="jifcast" tag="h1" className="logo">jifcast</NavLink>
             <div className="headerEl header-refresh">
                 <img src={refresh} alt="" className="header-icon icon-refresh"/>
                 <p className="icon-text text-refresh">refresh</p>
