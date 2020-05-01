@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e7cc17b35fa737d988e20d95d2243f3",
+    "revision": "831bcc56f05c41fe7018de2614e61b3f",
     "url": "/testapp/index.html"
   },
   {
-    "revision": "cb816960e992062c4c7d",
-    "url": "/testapp/static/css/main.c0a71525.chunk.css"
+    "revision": "efa3b7736d67665cc4a5",
+    "url": "/testapp/static/css/main.ad17cded.chunk.css"
   },
   {
-    "revision": "cc4d1bb7ac0a3cc953a5",
-    "url": "/testapp/static/js/2.d2966530.chunk.js"
+    "revision": "f170f806005e5394bc7f",
+    "url": "/testapp/static/js/2.c5b014fe.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/testapp/static/js/2.d2966530.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/testapp/static/js/2.c5b014fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cb816960e992062c4c7d",
-    "url": "/testapp/static/js/main.fc64c134.chunk.js"
+    "revision": "efa3b7736d67665cc4a5",
+    "url": "/testapp/static/js/main.c6214fe3.chunk.js"
   },
   {
     "revision": "cdfc787d41c314a80081",
     "url": "/testapp/static/js/runtime-main.78574772.js"
+  },
+  {
+    "revision": "fc23b90236f87b11147810f35f4c5293",
+    "url": "/testapp/static/media/Instagram.fc23b902.svg"
   },
   {
     "revision": "3f06be062ad59c4d6f4b2a7d6694776f",
@@ -52,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/testapp/static/media/download.70aaf7cf.svg"
   },
   {
+    "revision": "f8b9739423f45f1b3a26d1bf47928b97",
+    "url": "/testapp/static/media/facebook.f8b97394.svg"
+  },
+  {
     "revision": "b9d74a68e2b250009af34173e21ab145",
     "url": "/testapp/static/media/headphones.b9d74a68.svg"
   },
@@ -70,5 +78,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "49379e702c20d22425a057e987083833",
     "url": "/testapp/static/media/refresh.49379e70.svg"
+  },
+  {
+    "revision": "c9f1200836515fd4bacd29160be78732",
+    "url": "/testapp/static/media/twitter.c9f12008.svg"
   }
 ]);
