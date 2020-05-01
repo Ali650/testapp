@@ -1,0 +1,31 @@
+
+@font-face {
+    font-family: SF Pro Display;
+    src: url(SFPro.ttf);
+  }
+
+.container {
+    max-width: 589px;
+    margin-left: 150px;
+    text-align: left;
+    font-family: SF Pro Display;
+}
+
+.container-header {
+    margin: 45px 0;
+    font-size: 29px;
+    color: #154751;
+}
+
+@media only screen and (max-width:950px) {
+    .container {
+        background-color: #fff;
+        margin-left: 20px;
+        margin-right: 5px;
+        margin-top: -5px;
+        width: 100%;
+    }
+    .container-header {
+        display: none;
+    }
+}
